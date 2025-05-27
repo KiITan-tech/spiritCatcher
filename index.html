@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Spirit catcher</title>
+        <link rel="stylesheet" href="main.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="js/jquery.srSmoothscroll.js"></script>
+        <script src="Parralax.js"></script>
+        <link rel="icon" href="resorcess/img/icon.webp">
+    </head>
+    <body>
+        <header class="header">
+            <div class="header__contain">
+                <nav class="header__nav">
+                    <ul class="header__list">
+                        <li class="header__list-item">
+                            <a class="header__list-link active" href="index.html">Главная страница</a>
+                        </li>
+                        <li class="header__list-item">
+                            <a class="header__list-link" href="News.html">Новости</a>
+                        </li>
+                        <li class="header__list-item">
+                            <a class="header__list-link" href="Guide.html">Руководство</a>
+                        </li>
+                        <li class="header__list-item">
+                            <a class="header__list-link" href="Community.html">Сообщество</a>
+                        </li>
+                        <li class="header__list-item">
+                            <a class="header__list-link" href="AboutUs.html">О нас</a>
+                        </li>
+                        <li class="header__list-item">
+                            <a class="header__list-link" href="Support.html">Поддержка</a>
+                        </li>
+                    </ul>
+                    <a href="resorcess/img/Spirit Catcher.exe" class="header__btn">Скачать игру</a>
+                </nav>
+            </div>
+        </header>
+        <div class="parallax">
+            <div class="parallax__layer" id="layer0">
+            </div>
+            <div class="parallax__layer" id="layer7" data-speed="10">
+            </div>
+            <div class="parallax__layer" id="layer6" data-speed="0">
+            </div>
+            <div class="parallax__layer" id="layer5" data-speed="88">
+            </div>
+            <div class="parallax__layer" id="layer4" data-speed="80">
+            </div>
+            <div class="parallax__layer" id="layer3" data-speed="70">
+            </div>
+            <div class="parallax__layer" id="layer2" data-speed="60">
+            </div>
+            <div class="parallax__layer" id="layer1" data-speed="0">
+            </div>
+        </div>
+        <main class="mainSelection">
+            <section class="game">
+                <div class="game__container">
+                    <div class="game__about">
+                        <div class="game__textContant">
+                            <div class="game__title">
+                                <p>SPIRIT CHATCHER</p>
+                            </div>
+                            <input type="radio" name="game__tabs" id="tab__aboutGame" checked hidden>
+                            <label class="game__lableAbout" for="tab__aboutGame">Об игре</label>
+                            <input type="radio" name="game__tabs" id="tab__features" hidden>
+                            <label class="game__lableFeature" for="tab__features">Особенности</label>
+                            <div class="game__desc" id="descAboutGame">
+                                <p>Spirit catcher - это RPG с открытым миром где вас ждут  невероятные приключения, уникальные персонажи , невероятный сюжет, полная свобода действий и возможноть влиять на ход истории своими решениями.</p>
+                                <!-- <p id="descFeature">Надпись на курточке пизда</p> -->
+                            </div>
+                            <div class="game__desc" id="descFeature">
+                                <ul class="game__feature">
+                                    <li class="feature">Живой мир: NPC имеют собственные распорядки дня и реагируют на ваши действия.</li>
+                                    <li class="feature">Нелинейность сюжета: От вашего выбора будет зависеть дальнейшее развитие истории.</li>
+                                    <li class="feature">Динамическая боевая система: Сражайтесь с монстрами в динамических баталиях.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="game__imageContainer">                        
+                            <img class="game__image" id="imageAbout" src="resorcess/img/257850_screenshots_20170621172955_1.jpg">                        
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="world">
+                <div class="world__container">
+                    <div class="world__about">
+                        <div class="world__imageContainer"> 
+                            <img src="resorcess/img/375428-upwz7xfx-v4.jpg" alt="" class="world__image">
+                        </div> 
+                        <div class="world__textContainer">
+                            <input type="radio" name="world__tabs" id="tab__aboutWorld" checked hidden>
+                            <label class="game__lableWorld" for="tab__aboutWorld">О мире</label>
+                            <input type="radio" name="world__tabs" id="tab__gameProcess" hidden>
+                            <label class="game__lableProcess" for="tab__gameProcess">Игровой процесс</label>
+                            <div class="game__desc" id="descAboutWorld">
+                                <p>Spirit catcher переносит вас на большой континент где правит магия. Где после тысячалетий войны наконец установился мир и равновесие между рассами проживающими на нём. Но где-то на безкрайних просторах кантинента в лесах и пустынях всё ещё бродят отступники гот овые развязать новую войну.</p>
+                                <p class="list__title">Ключевые локации: </p>
+                                <ul class="game__feature">
+                                    <li class="feature">Долина друидов - деревня где живут самые умняе и старые маги всего континета.</li>
+                                </ul>
+                            </div>
+                            <div class="game__desc" id="descGameProcess">
+                                <p>После начала игры вы появляетесь в деревне друидов где можете начать сюжетную линию игры взяв квест у главы друидного племени. Днём можно собирать травы, исследовать мир и выполнять основыне или побочные задания. А ночь это идеальное время для охоты когда духи стоновятся сильнее и выходят бродить по долине.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="news">
+                <div class="news__container">
+                    <div class="new__about">
+                        <div class="news__title">
+                            <p>Свежие новости</p>
+                        </div>
+                        <div class="news__text">
+                            <ul class="news__list">
+                                <li class="news__content">
+                                    <a href="#" class="news__item" title="Версия">
+                                        <p class="news__titleText">Релиз игры состоится 26 сентября 2025 года</p>
+                                    </a>
+                                     <div class="news__divider"></div>
+                                </li>
+                                <li class="news__content">
+                                    <a href="#" class="news__item" title="Версия">
+                                        <p class="news__titleText">Релиз версии игры 1.0</p>
+                                    </a>
+                                    <div class="news__divider"></div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="media">
+                <div class="media__container">
+                    <div class="media__about">
+                        <div class="media__title">
+                            <p>Медиа галерея</p>
+                        </div>
+                        <div class="media__slideshowContainer">
+                            <div class="mySlides fade">
+                                <div class="media__numbertext">1 / 3</div>
+                                <img src="resorcess/img/SpiritCatcher1.png" style="width:100%">
+                            </div>
+
+                            <div class="mySlides fade">
+                                <div class="media__numbertext">2 / 3</div>
+                                <img src="resorcess/img/SpiritCatcher2.png" style="width:100%">
+                            </div>
+
+                            <div class="mySlides fade">
+                                <div class="media__numbertext">3 / 3</div>
+                                <img src="resorcess/img/SpiritCatcher3.png" style="width:100%">
+                            </div>
+                            <a class="media__prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="media__next" onclick="plusSlides(1)">&#10095;</a>
+                        </div>
+                    </div>
+                </div>
+                <script>
+                let slideIndex = 1;
+                showSlides(slideIndex);
+                function plusSlides(n) 
+                {
+                    showSlides(slideIndex += n);
+                }
+                function currentSlide(n) 
+                {
+                    showSlides(slideIndex = n);
+                }
+                function showSlides(n) 
+                {
+                    let i;
+                    let slides = document.getElementsByClassName("mySlides");
+                    if (n > slides.length) {slideIndex = 1}    
+                    if (n < 1) {slideIndex = slides.length}
+                    for (i = 0; i < slides.length; i++) 
+                    {
+                        slides[i].style.display = "none";  
+                    }
+                    slides[slideIndex-1].style.display = "block"; 
+                }
+                </script>
+            </section>
+        </main>
+        <footer class="author">
+            <div class="author__container">
+                <nav class="author__nav">
+                    <ul class="link__nav">
+                        <li class="link__nav-item">
+                            <a class="item_icon" href="https://vk.com/id403236057">
+                                <div class="icon">
+                                    <img class="icon__res" src="resorcess/img/vk-social-logotype-svgrepo-com (1).svg" title="VK">
+
+                                    </img>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="link__nav-item">
+                            <a class="item_icon" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                                <div class="icon">
+                                    <img class="icon__res" src="resorcess/img/steam-svgrepo-com.svg" title="steam">
+
+                                    </img>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="link__nav-item_">
+                            <a class="item_icon" href="https://github.com/KiITan-tech">
+                                <div class="icon">
+                                    <img class="icon__res" src="resorcess/img/github-142-svgrepo-com.svg" title="">
+
+                                    </img>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <nav class="author__nav">
+                    <ul class="link__nav">
+                        <li class="link__nav-item">
+                            <a href="index.html" class="item__navActive">
+                                <p class="t">Главная страница</p>
+                            </a>
+                        </li>
+                        <li class="link__nav-item">
+                            <a href="News.html" class="item__nav">
+                                <p class="t">Новости</p>
+                            </a>
+                        </li>
+                        <li class="link__nav-item">
+                            <a href="Guide.html" class="item__nav">
+                                <p class="t">Руководство</p>
+                            </a>
+                        </li>
+                        <li class="link__nav-item">
+                            <a href="Community.html" class="item__nav">
+                                <p class="t">Сообщество</p>
+                            </a>
+                        </li>
+                        <li class="link__nav-item">
+                            <a href="AboutUs.html" class="item__nav">
+                                <p class="t">О нас</p>
+                            </a>
+                        </li>
+                        <li class="link__nav-item_">
+                            <a href="Support.html" class="item__nav">
+                                <p class="t">Поддержка</p>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="polit">
+                    <p class="polit__text">
+                        Все права защищены |
+                        <a class="polit__link" href="https://github.com/kleientertainment/Policies/blob/master/Privacy%20Policy.md">Политика конфиденциальности</a>
+                    </p>
+                </div>
+            </div>
+            <div class="author__back">
+                <div class="back__image">
+                    <img class="image__gif" src="resorcess/img/GifSF1.gif" alt="">
+                </div>
+            </div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    </body>
+</html>
